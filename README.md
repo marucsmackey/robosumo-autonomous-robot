@@ -4,6 +4,8 @@ Autonomous RoboSumo robot developed as part of my first-year engineering coursew
 
 The robot uses an Arduino Nano, two TCRT5000 infrared sensors and PWM motor control to navigate the arena using a finite-state-machine control system.
 
+![Completed RoboSumo robot](images/robot-final.png)
+
 ## My Contribution
 
 My main responsibility was developing the final control architecture and Arduino C++ code.
@@ -22,9 +24,17 @@ I also contributed to:
 - SN754410NE motor driver
 - 2 × TCRT5000 IR sensors
 - DC motors
-- Breadboard electronics
+- breadboard electronics
 - 6 V battery system
-- Laser-cut 3 mm plywood chassis
+- laser-cut 3 mm plywood chassis
+
+### Electronics Build
+
+![RoboSumo breadboard electronics](images/breadboard-build.jpeg)
+
+### Wiring Diagram
+
+![RoboSumo wiring diagram](images/wiring-diagram.jpeg)
 
 ## Control System
 
@@ -39,6 +49,16 @@ The robot can:
 - perform timed turns toward the centre
 - recover from unexpected sensor conditions
 - stop near the centre of the arena
+
+### State Machine
+
+![RoboSumo finite-state machine](images/state-machine.png)
+
+The state numbers used in the Arduino program correspond to the behaviours below:
+
+![RoboSumo state reference](images/state-reference.png)
+
+## Testing and Development
 
 Testing on the physical arena exposed issues that were not obvious during initial development, including false sensor behaviour near the raised platform edge and differences between the two motors.
 
@@ -56,6 +76,6 @@ The final Arduino control program is available here:
 
 ## Development Blog
 
-The original project development log is available on the TU Dublin RoboSumo site:
+The original development log is available on the TU Dublin RoboSumo site:
 
 https://robosumo.eu/mainman/view.php?mdfile=20251204_163552.md
