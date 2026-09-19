@@ -4,7 +4,7 @@ Autonomous RoboSumo robot developed as part of my first-year engineering coursew
 
 The robot uses an Arduino Nano, two TCRT5000 infrared sensors and PWM motor control to navigate the arena using a finite-state-machine control system.
 
-![Completed RoboSumo robot](images/robot-final.png)
+![Completed RoboSumo robot](robot-final.png)
 
 ## My Contribution
 
@@ -32,13 +32,13 @@ I also contributed to:
 
 The control electronics were assembled on a breadboard mounted to the robot chassis.
 
-![RoboSumo breadboard electronics](images/breadboard-build.jpeg)
+![RoboSumo breadboard electronics](breadboard-build.jpeg)
 
 ### Wiring Diagram
 
 The system used two analogue IR sensor inputs and independent motor-control outputs through the SN754410NE motor driver.
 
-![RoboSumo wiring diagram](images/wiring-diagram.jpeg)
+![RoboSumo wiring diagram](wiring-diagram.jpeg)
 
 ## Control System
 
@@ -58,11 +58,11 @@ The control system allows the robot to:
 
 The final state-machine structure used to organise the robot's behaviour is shown below.
 
-![RoboSumo finite-state machine](images/state-machine.png)
+![RoboSumo finite-state machine](state-machine.png)
 
 The state numbers in the Arduino program correspond to the following behaviours:
 
-![RoboSumo state reference](images/state-reference.png)
+![RoboSumo state reference](state-reference.png)
 
 ## Testing and Debugging
 
